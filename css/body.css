@@ -1,0 +1,27 @@
+.page{
+  font-family: Indie Flower;
+  height: 725.6px;
+  background-color: #ca8188;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color :  #6b4448;
+
+}
+.diary{
+  border-style: solid;
+  border-top-style: none;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 5px;
+  border-color: #ada8a6;
+  background-color: #f8f1ee;
+  height: 600px;
+  width: 900px; /*make fixed dimns responsive later*/
+  display: flex;
+  border-radius: 20px;;
+  position: absolute;
+  /*position: relative;
+  z-index: 100;*/
+
+}

@@ -1,0 +1,35 @@
+.left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  height: 100%;
+}
+.pic-container{
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic{
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-top-width: 20px;
+  border-bottom-width: 70px;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  border-color: rgb(244, 244, 244);
+  box-shadow: 5px 10px 60px rgb(186, 184, 185);
+}
+.diya{
+  height: 100%;
+  width: 100%;
+}
+.persona-container{
+  font-size: 30px;
+  margin-left: 140px;
+  margin-top: 10px;
+  flex: 1;
+  -webkit-transform: rotate(-17deg);
+}

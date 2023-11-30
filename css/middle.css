@@ -1,0 +1,32 @@
+.middle{
+  flex: 0.5;
+  overflow: hidden;
+  height: 100%;
+  position: relative;  
+}
+.spiral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.half-circle {
+  margin-top: 2px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 100px;
+  height: 50px; /* as the half of the width og 100 height, 200 width*/
+  background-color: transparent;
+  border-top-left-radius: 60px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 60px; /* 100px of height + 10px of border */
+  border: 5px solid #D1C3B7;
+  border-bottom: 0;
+  z-index:102;
+}
+.line{
+  position: absolute;
+  z-index: 100;
+  margin-left: 83px;
+  background-color: #ca8188;
+  height: 100%;
+  border-color:  #ca8188;
+}
